@@ -17,7 +17,7 @@ public class Board {
 	}
 
 	public void addShape(Shape a, int i) {
-		if (i < 1 && i > 4 && this.board[i-1].ifExist()) {
+		if (i < 1 && i > 4) {
 			System.out.println("wrong nomber");
 		} else {
 			if (this.board[i - 1] == null ) {
